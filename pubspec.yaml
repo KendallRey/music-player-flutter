@@ -10,6 +10,7 @@ dependencies:
   audio_session: ^0.1.25
   flutter:
     sdk: flutter
+  go_router: ^14.8.0
   just_audio: ^0.9.46
   rxdart: ^0.28.0
 
