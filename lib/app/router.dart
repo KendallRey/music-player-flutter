@@ -39,7 +39,7 @@ class AppRouter {
   final GoRouter router;
 
   AppRouter()
-      : router = GoRouter(initialLocation: AppRoutes.home, routes: [
+      : router = GoRouter(initialLocation: AppRoutes.settings, routes: [
           ShellRoute(
               builder: (context, state, child) {
                 final url = state.uri.toString();
